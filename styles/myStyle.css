@@ -1,0 +1,250 @@
+﻿html {
+    height: 98%;
+}
+
+body {
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background: #E3CAA1;
+    background: url('../images/architecture-buildings-daylight-798548.jpg') no-repeat
+    /*center left*/
+    ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.85);
+    min-height: 100%;
+}
+/***************MAIN HEADER***************/
+.myheader {
+    display: block;
+    height: 23vh;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 1.5%;
+}
+
+    .myheader h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6vh;
+        letter-spacing: 45px;
+        word-spacing: 2.5vh;
+        text-align: center;
+        padding-left: 45px;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        text-transform: uppercase;
+    }
+
+.logo {
+    width: 17%;
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+/*________________________________________________________________*/
+/***************NAVIGATION***************/
+nav {
+    position: relative;
+    left: -4px;
+}
+
+    nav ul {
+        list-style: none;
+        z-index: 2;
+    }
+
+        nav ul li {
+            position: relative;
+            display: inline-block;
+            font: bold 12px/18px sans-serif;
+            margin-right: -8px;
+        }
+
+            nav ul li a {
+                display: block;
+                background-color: #2f2f33;
+                color: white;
+                width: 178px;
+                height: 47px;
+                padding-top: 28px;
+                text-decoration: none;
+                text-align: center;
+                font: bold 14px/18px sans-serif;
+                -moz-transition: all 0.2s;
+                -ms-transition: all 0.2s;
+                -o-transition: all 0.2s;
+                transition: all 0.2s;
+            }
+
+                nav ul li a:hover {
+                    background: #555;
+                    color: #fff;
+                }
+
+            nav ul li ul {
+                display: none;
+                position: absolute;
+            }
+
+            nav ul li:hover > ul {
+                display: block;
+                width: 120px;
+            }
+
+            nav ul li ul li {
+                background: #555;
+                display: block;
+                color: #fff;
+                position: relative;
+                margin-right: 0px;
+            }
+
+ul li ul li:hover {
+    background: #666;
+}
+
+ul li ul li a {
+    background: #555;
+    display: block;
+    color: #fff;
+}
+
+    ul li ul li a:hover {
+        background: #666;
+    }
+
+nav ul .here {
+    background-color: lightslategray;
+    color: white;
+}
+
+.default {
+    /*בשביל שהפורטפוליו בתפריט לא יראה כאילו הוא לחיץ*/
+    cursor: default;
+}
+
+.notActive {
+    /*בשביל העמודים הלא פעילים*/
+    cursor: not-allowed;
+}
+/*________________________________________________________________*/
+/***************TEXT***************/
+p {
+    padding: 0vh 18vh;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 2vh;
+}
+
+h2 {
+    clear: both;
+    font-size: 31px;
+    margin-bottom: 3vh;
+}
+/*________________________________________________________________*/
+/***************MEDIA***************/
+
+.mypic {
+    background-image: url('../images/HELLO1-01.png');
+    height: 420px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+    .mypic a {
+        position: relative;
+        display: inline-block;
+        width: 287px;
+        height: 408px;
+    }
+
+#youtube {
+    padding: 10vh 0vh;
+}
+
+#SundownHomage {
+    width: 40%;
+    border: 10px solid white;
+}
+
+#Zionism {
+    padding-top: 20px;
+    width: 64%;
+    border: 10px solid white;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    position: center;
+    padding-top: 25px;
+}
+
+#infographic {
+    margin-top: 20px;
+    width: 64%;
+    border: 10px solid white;
+    padding-bottom: 10vh;
+}
+
+embed {
+    width: 932px;
+    height: 679px;
+    border: 4px solid white;
+    margin-bottom: 6vh;
+}
+
+/*________________________________________________________________*/
+/***************FOOTER***************/
+
+footer {
+    padding: 40px 0px;
+}
+
+#fb {
+    background-image: url('../images/facebook.png');
+    background-size: contain;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+}
+
+#pinterest {
+    background-image: url('../images/pinterest.png');
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+#instagram {
+    background-image: url('../images/instagram.png');
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.contactLinks {
+    display: inline-block;
+    padding: 7px;
+}
+#contact {
+    font-size: 18pt;
+    font-weight: lighter;
+    display: block;
+}
