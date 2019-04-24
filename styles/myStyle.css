@@ -9,9 +9,7 @@ body {
     font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
     background: #E3CAA1;
-    background: url('../images/architecture-buildings-daylight-798548.jpg') no-repeat
-    /*center left*/
-    ;
+    background: url('../images/architecture-buildings-daylight-798548.jpg') no-repeat center left;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -155,14 +153,21 @@ h2 {
     font-size: 31px;
     margin-bottom: 3vh;
 }
+
+.intro {
+    position: absolute;
+    top: 26%;
+}
+
 /*________________________________________________________________*/
 /***************MEDIA***************/
 
 .mypic {
     background-image: url('../images/HELLO1-01.png');
-    height: 420px; /* You must set a specified height */
+    height: 420px; /* set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
+    margin-top: 84px;
 }
 
     .mypic a {
@@ -212,7 +217,8 @@ embed {
 /***************FOOTER***************/
 
 footer {
-    padding: 40px 0px;
+    margin-top: 60px;
+    padding-bottom: 10px;
 }
 
 #fb {
